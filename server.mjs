@@ -1,5 +1,5 @@
 import { createServer } from 'http';
-const Pool = require('pg').Pool
+import Pool from 'pg'
 const db = new Pool({
   user: 'postgres',
   host: 'localhost',
